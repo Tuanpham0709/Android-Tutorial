@@ -9,99 +9,118 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="30dp"
-        android:layout_weight="2"
-        android:src="@mipmap/LOGO" />
+        android:layout_weight="1.5"
+        android:src="@mipmap/logo"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="30dp"
+        />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="3"
+        android:layout_weight="3.5"
         android:orientation="vertical">
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="170dp"
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginHorizontal="20dp"
-                android:text="Đăng nhập"
+                android:layout_marginHorizontal="40dp"
                 android:layout_marginBottom="5dp"
+                android:text="Đăng nhập"
                 android:textColor="#000000"
                 android:textSize="17sp"
-                android:textStyle="bold|italic"
-                />
+                android:textStyle="bold" />
 
             <View
                 android:layout_width="match_parent"
                 android:layout_height="6dp"
-                android:background="#ff00"></View>
+                android:background="#CC5252"></View>
         </LinearLayout>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="XIN CHÀO"
-            android:textSize="30sp"
             android:layout_marginLeft="30dp"
-            android:layout_marginTop="30dp"
-
-            />
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="XIN CHÀO"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold" />
 
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Đăng nhập bằng số điện thoại"
-            android:textSize="20sp"
             android:layout_marginLeft="30dp"
+            android:layout_marginBottom="10dp"
+            android:text="Đăng nhập bằng số điện thoại"
             android:textColor="#000000"
-            />
+            android:textSize="20sp" />
 
         <EditText
             android:layout_width="match_parent"
-            android:layout_marginHorizontal="30dp"
             android:layout_height="50dp"
+            android:layout_marginHorizontal="30dp"
             android:background="@drawable/gray_drawable"
             android:hint="Số điện thoại"
             android:padding="10dp"
+            android:layout_marginBottom="20dp"
             />
 
-        <TextView
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:layout_marginHorizontal="25dp"
-            android:text="ĐĂNG NHẬP"
             android:background="@drawable/red_drawable"
-            android:textSize="12sp"
-            android:gravity="center"
-            android:textColor="#FFFFFF"
+            android:layout_marginHorizontal="30dp"
 
-            />
-
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Đăng nhập"
+                android:layout_marginHorizontal="120dp"
+                android:textSize="18dp"
+                android:textColor="#fff"
+                android:paddingTop="12dp"
+                />
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="-26dp"
+                    android:src="@mipmap/ic_arrowright"
+                    />
+        </LinearLayout>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginHorizontal="100dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
             android:text="Hình thức đăng nhập khác"
             android:textSize="15sp" />
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginHorizontal="140dp"
             android:orientation="horizontal">
 
             <ImageView
-                android:layout_width="80dp"
-                android:layout_height="80dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
                 android:src="@mipmap/ic_facebook"
 
                 />
 
             <ImageView
-                android:layout_width="80dp"
-                android:layout_height="80dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
                 android:src="@mipmap/ic_google" />
 
         </LinearLayout>
