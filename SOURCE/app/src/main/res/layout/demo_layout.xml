@@ -1,0 +1,22 @@
+<RelativeLayout android:layout_width="match_parent"
+                android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <View
+        android:id="@+id/v_blue"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="#000DFF"
+        android:layout_marginLeft="120dp"
+        android:layout_centerInParent="true"
+        ></View>
+
+    <View
+        android:id="@+id/yellow"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#FFD300"
+        android:layout_below="@+id/v_blue"
+        android:layout_centerHorizontal="true"
+        ></View>
+</RelativeLayout>
