@@ -13,23 +13,9 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.login_layout);
+        setContentView(R.layout.activity_main);
 
-        // Tao doi tuong user
 
-        User windUser = new User();
-        windUser.setId(23423423);
-        windUser.setPhoneNumber("034123");
-        windUser.setProfileUrl("http://sss");
-        windUser.setUsername("Tuanpm");
-
-        // Toast.makeText(this, windUser.getUsername(), Toast.LENGTH_LONG).show();
-        // Sử dụng đối tượng được khai báo và khời tạo trong file xml
-
-        EditText edtPhoneNumber = findViewById(R.id.edt_phone_number);
-        edtPhoneNumber.setText("Hello morterfucker");
-        TextView evUserName = findViewById(R.id.tv_hello);
-        evUserName.setText(windUser.getUsername());
 
     }
 }

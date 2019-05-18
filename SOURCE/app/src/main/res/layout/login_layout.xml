@@ -76,6 +76,7 @@
             android:hint="Số điện thoại"
             android:padding="10dp" />
             <RelativeLayout
+                android:id="@+id/rl_login_button"
                 android:clickable="true"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -123,6 +124,7 @@
             android:orientation="horizontal">
 
             <ImageView
+                android:id="@+id/img_fb_login"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:src="@mipmap/ic_facebook"
@@ -130,6 +132,7 @@
                 />
 
             <ImageView
+                android:id="@+id/img_gg_login"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:src="@mipmap/ic_google" />
