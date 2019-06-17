@@ -1,0 +1,70 @@
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="350dp"
+        android:layout_height="223dp"
+        app:cardCornerRadius="15dp"
+        >
+
+        <ImageView
+            android:id="@+id/img_background"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/img_dekko1" />
+
+        <LinearLayout
+            android:id="@+id/ll_backgroundIMg_Tintuc2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+
+            android:orientation="vertical"
+            android:weightSum="2">
+
+
+            <TextView
+                android:id="@+id/tv_titleNews"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="25dp"
+                android:layout_weight="1"
+                android:text="Khuyến mãi \n lên đến 50%"
+                android:textAlignment="textStart"
+                android:textColor="#6D1E1E"
+
+                />
+
+            <LinearLayout
+                android:id="@+id/btn_detail"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="25dp"
+                android:background="@drawable/radius_btn_chitiet"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:text="Chi tiết" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="15dp"
+                    android:src="@mipmap/ic_arrowright" />
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>
